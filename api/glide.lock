@@ -1,0 +1,31 @@
+hash: 5280de0dd4cbdf74bfd22b00beaf31a62e6e7afb166b394aba0da2a3efe69e8b
+updated: 2018-09-11T03:36:14.630248497+08:00
+imports:
+- name: github.com/google/uuid
+  version: e704694aed0ea004bb7eb1fc2e911d048a54606a
+- name: github.com/jackc/pgx
+  version: 89f1e6ac7276b61d885db5e5aed6fcbedd1c7e31
+  subpackages:
+  - chunkreader
+  - internal/sanitize
+  - pgio
+  - pgproto3
+  - pgtype
+- name: github.com/julienschmidt/httprouter
+  version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
+- name: github.com/pkg/errors
+  version: 816c9085562cd7ee03e7f8188a1cfd942858cded
+- name: golang.org/x/net
+  version: 161cd47e91fd58ac17490ef4d742dc98bb4cf60e
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/time
+  version: fbb02b2291d28baffd63558aa44b4b56f178d650
+  subpackages:
+  - rate
+- name: googlemaps.github.io/maps
+  version: bc340667705ea9c00e1c2ac35d01cba260945f41
+  subpackages:
+  - internal
+testImports: []
